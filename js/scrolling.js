@@ -75,10 +75,10 @@ $(document).scroll( function () {
 	if (scrolled < homeHeight*3/4) {
 		makeActive('linkHome');
 	}
-	else if (scrolled < homeHeight+aboutHeight*3/4) {
+	else if (scrolled < homeHeight+aboutHeight*2/3) {
 		makeActive('linkAbout');
 	}
-	else if (scrolled < homeHeight+aboutHeight+artHeight*3/4) {
+	else if (scrolled < homeHeight+aboutHeight+artHeight*2/3) {
 		makeActive('linkArt');
 	}
 	else {
