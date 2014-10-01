@@ -79,16 +79,21 @@ li {
 	width: 300px;
 	padding: 10px 20px;
 	background-color: #fff;
-	position: absolute;
+	position: fixed;
 	box-sizing: border-box;
-	left: 0;
-	top: 0;
-	bottom: 0;
+	height: 100%;
+	overflow-y: auto;
 	box-shadow: 1px 1px 4px #ddd;
 	z-index: 1
 }
+.nav-links {
+	text-align: center;
+}
+.nav-link {
+	margin-right: 10px;
+}
+
 #details {
-	background-color: blue;
 	position: absolute;
 	left: 300px;
 }
