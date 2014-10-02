@@ -83,7 +83,7 @@ li {
 	box-sizing: border-box;
 	height: 100%;
 	overflow-y: auto;
-	box-shadow: 1px 1px 4px #ddd;
+	border-right: 1px solid #ddd;
 	z-index: 1
 }
 .nav-links {
@@ -96,6 +96,7 @@ li {
 #details {
 	position: absolute;
 	left: 300px;
+	right: 0px;
 }
 
 ul a, ul a:visited{
@@ -107,6 +108,10 @@ ul a, ul a:visited{
 ul a:focus, ul a:hover{
 	color: #999;
 	border-bottom: none
+}
+
+.current {
+	color: #999 !important;
 }
 
 .circular {
@@ -129,4 +134,27 @@ ul a:focus, ul a:hover{
 .social-icon {
 	margin-right: 10px;
 	text-decoration: none;
+}
+.header-background {
+	background: url('../img/abstractback.png') fixed;
+	position: relative;
+	height: 250px;
+	content: ' ';
+}
+.header {
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    padding-top: 120px;
+    width: 100%;
+	color: #fff;
+	background-color: rgba(173, 40, 40, 0.7);
+	font-size: 24px;
+	text-align: center;
+	font-weight: 300;
+	transition: all 0.5s;
+}
+
+.project {
+	min-height: 1000px;
 }
