@@ -191,3 +191,7 @@ a.button:hover {
 #svgs {
 	text-align: center;
 }
+#survey {
+	width: 300px;
+	margin: auto;
+}
