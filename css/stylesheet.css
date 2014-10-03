@@ -183,3 +183,11 @@ a.button {
 a.button:hover {
 	background-color: rgba(256, 256, 256, 0.2);
 }
+
+.svg {
+	margin: 20px;
+}
+
+#svgs {
+	text-align: center;
+}
